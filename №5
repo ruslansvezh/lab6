@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int year;
+	cout << "Введите год: ";
+	cin >> year;
+	if (year > 0)
+	{
+		cout << "Сегодня " << year / 100 +1 << " столетие";
+	}
+	else
+		cout << "Введены неверные данные!" << endl;
+}   
