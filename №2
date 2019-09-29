@@ -1,0 +1,17 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int K;
+	cout << "Введите число: ";
+	cin >> K;
+	if (K >= 1 && K<= 365)
+	{
+		cout << "Номер дня недели: " << K % 7;
+	}
+       else
+		cout << "Неверные данные!"; 
+      
+}   
