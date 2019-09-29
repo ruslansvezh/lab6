@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int a, b, c, S, s;
+	cout << "Введите стороны прямоугольнка: " << endl;
+	cin >> a>>  b;
+	cout << "Введите сторону квадрата: " << endl;
+	cin >> c;
+	S = a * b;
+	s = c * c;
+	cout << "В прямоугольнике " << S / s << " квадратов"<< endl;
+		cout << "Осталось свободного места: " << S - s*(S/s);
+}   
