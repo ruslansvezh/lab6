@@ -1,0 +1,12 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	setlocale(0, "");
+	int sec, min;
+	cout << "Введите кол-во секунд: ";
+	cin >> sec;
+	min = sec / 60;
+	cout << "С начала последней минуты прошло " << sec - 60 * min << " секунд";
+}
